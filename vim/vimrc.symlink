@@ -66,17 +66,21 @@ nmap <C-PageUp> :bp<CR>
 nmap <C-PageDown> :bn<CR>
 nmap <F7> :make <CR>
 nmap <F5> :make run <CR>
-nmap <A-S-p> :FindFile<CR>
-nmap <A-S-o> :FSHere<cr>
+"nmap <A-S-p> :FindFile<CR>
+"nmap <A-S-o> :FSHere<cr>
 nmap <C-V> "+gP							" Ctrl-V pastes from the system clipboard
 imap <C-V> <ESC><C-V>i					" Ctrl-V in insert modes works as well
 vmap <C-C> "+y							" Ctrl-C copies to the system clipboard
+
 inoremap <F7> <ESC> :make <CR>
 inoremap <F5> <ESC> :make run <CR>
-inoremap <Left> <NOP>
-inoremap <Right> <NOP>
-inoremap <Up> <NOP>
-inoremap <Down> <NOP>
+
+"inoremap <Left> <NOP>
+"inoremap <Right> <NOP>
+"inoremap <Up> <NOP>
+"inoremap <Down> <NOP>
+
+let g:ctrlp_map = '<A-S-o>'				" Alt-Shift-O to open file
 
 au! BufEnter *.cpp let b:fswitchdst = 'hpp' | let b:fswitchlocs = '.,../include'
 au! BufEnter *.hpp let b:fswitchdst = 'cpp' | let b:fswitchlocs = '.,../source'
