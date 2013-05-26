@@ -1,26 +1,66 @@
-" activate Pathogen managed plugins:
+" activate Pathogen managed plugins
 call pathogen#infect()
 
-set softtabstop=4
-set shiftwidth=4
-set tabstop=4
-set expandtab
-set autoindent
+" new is good
+set nocompatible
+
+" General View config
+set number          " always show line numbers
+set nowrap          " don't wrap lines
+set guioptions=-t   " hide tool bar in gui mode
+set showmatch       " highlight matching paranthesis
+set title           " change the title of the terminal
+set visualbell      " don't ever beep
+set noerrorbells    " really
+set linespace=2     " more space (only works in gui mode)
+
+" Tabs
+set tabstop=4       " 4 spaces wide tabs
+set noexpandtab     " don't expand tabs (currently the keen code base uses real tabs in files..)
+set shiftwidth=4    " text is shifted 4 spaces with '<' and '>'
+set shiftround      " use multiple of shiftwidth when indenting with '<' and '>'
+set softtabstop=4   " insert 4 spaces when you hit <tab>
+set smarttab        " insert tabs on the start of a line according to shiftwidth and not tabstop
+"set expandtab
+autocmd FileType make setlocal noexpandtab  " never expand tabs in makefiles
+
+" Indentation
+set autoindent      " always enable automotic indentation
+set copyindent      " copy the previous indentation on autoindenting
 set smartindent
-set number
+
+" Backup and Swap files
 set nobackup
 set noswapfile
-autocmd FileType make setlocal noexpandtab
+
+" Search
+set hlsearch                            " highlight search terms
+set ignorecase                          " ignore case while searching
+set smartcase                           " unless we have a uppercase letter in the search pattern
+set incsearch                           " show search matches as you type
+" Clear search highlight everytime Esc is pressed
+nnoremap <esc> :noh<return><esc>    
+
+" Syntax highlighting + colors:
 syntax on
 set background=dark
 colorscheme solarized
-set hlsearch
-set hidden " Don't ask for saving when switch buffers
-set confirm " But *do* ask when quitting vim
+set gfn=Droid\ Sans\ Mono\ 10           " nice font for gvim
+
+" auto completion
+set completeopt=menu,preview,longest  
+
+" editing options
+set backspace=indent,eol,start          " allow backspacing over everything in insert mode
+set history=1000                        " bigger history
+set undolevels=1000                     " more undo levels
+set hidden                              " allow unsaved buffers
+set confirm                             " But *do* ask when quitting vim
+
 au BufRead,BufNewFile *.lace setfiletype ruby
-set gfn=Droid\ Sans\ Mono\ 10
 set autowrite
 
+" keyboard shortcuts
 nmap <F2> :FindFile<CR>
 nmap <C-PageUp> :bp<CR>
 nmap <C-PageDown> :bn<CR>
@@ -28,6 +68,9 @@ nmap <F7> :make <CR>
 nmap <F5> :make run <CR>
 nmap <A-S-p> :FindFile<CR>
 nmap <A-S-o> :FSHere<cr>
+nmap <C-V> "+gP							" Ctrl-V pastes from the system clipboard
+imap <C-V> <ESC><C-V>i					" Ctrl-V in insert modes works as well
+vmap <C-C> "+y							" Ctrl-C copies to the system clipboard
 inoremap <F7> <ESC> :make <CR>
 inoremap <F5> <ESC> :make run <CR>
 inoremap <Left> <NOP>
@@ -39,6 +82,7 @@ au! BufEnter *.cpp let b:fswitchdst = 'hpp' | let b:fswitchlocs = '.,../include'
 au! BufEnter *.hpp let b:fswitchdst = 'cpp' | let b:fswitchlocs = '.,../source'
 au! BufEnter *.c let b:fswitchdst = 'h' | let b:fswitchlocs = '.,../include'
 au! BufEnter *.h let b:fswitchdst = 'c' | let b:fswitchlocs = '.,../source'
+
 "# Complete options (
 ":silent FC .
 
