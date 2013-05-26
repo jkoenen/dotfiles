@@ -10,9 +10,18 @@ set nowrap          " don't wrap lines
 set guioptions=-t   " hide tool bar in gui mode
 set showmatch       " highlight matching paranthesis
 set title           " change the title of the terminal
-set visualbell      " don't ever beep
+"set visualbell      " don't ever beep
 set noerrorbells    " really
 set linespace=2     " more space (only works in gui mode)
+set scrolloff=5		" keep more lines visible while scrolling up / down
+
+if has( "gui_running" )
+	set lines=50 
+	set columns=120
+endif
+
+set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
+set laststatus=2
 
 " Tabs
 set tabstop=4       " 4 spaces wide tabs
@@ -64,6 +73,9 @@ set autowrite
 nmap <F2> :FindFile<CR>
 nmap <C-PageUp> :bp<CR>
 nmap <C-PageDown> :bn<CR>
+nmap <F4> :cnext<CR>			" next error
+nmap <S-F4> :cprev<CR>			" previous error
+map <F10> :clist<CR>
 nmap <F7> :make <CR>
 nmap <F5> :make run <CR>
 "nmap <A-S-p> :FindFile<CR>
