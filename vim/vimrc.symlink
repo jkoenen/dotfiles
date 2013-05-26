@@ -8,6 +8,8 @@ set expandtab
 set autoindent
 set smartindent
 set number
+set nobackup
+set noswapfile
 autocmd FileType make setlocal noexpandtab
 syntax on
 set background=dark
@@ -18,8 +20,7 @@ set confirm " But *do* ask when quitting vim
 au BufRead,BufNewFile *.lace setfiletype ruby
 set gfn=Droid\ Sans\ Mono\ 10
 set autowrite
-"source $HOME/Dropbox/config/vim/FindFile.vim
-"source $HOME/Dropbox/config/vim/fswitch.vim
+
 nmap <F2> :FindFile<CR>
 nmap <C-PageUp> :bp<CR>
 nmap <C-PageDown> :bn<CR>
@@ -33,6 +34,7 @@ inoremap <Left> <NOP>
 inoremap <Right> <NOP>
 inoremap <Up> <NOP>
 inoremap <Down> <NOP>
+
 au! BufEnter *.cpp let b:fswitchdst = 'hpp' | let b:fswitchlocs = '.,../include'
 au! BufEnter *.hpp let b:fswitchdst = 'cpp' | let b:fswitchlocs = '.,../source'
 au! BufEnter *.c let b:fswitchdst = 'h' | let b:fswitchlocs = '.,../include'
