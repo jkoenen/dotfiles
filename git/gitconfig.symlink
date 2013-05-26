@@ -1,0 +1,15 @@
+[user]
+	name = Julien Koenen
+	email = jkoenen@motor3d.org
+[diff]
+	tool = meld
+[push]
+	default = simple
+[branch]
+	autosetuprebase = always
+[color]
+	ui = true
+	status = auto
+	branch = auto
+[core]
+	editor = gvim

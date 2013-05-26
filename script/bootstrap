@@ -118,7 +118,10 @@ setup_gitconfig
 install_dotfiles
 
 # copy terminal colors:
+# todo: symlink these..
 cp $DOTFILES_ROOT/xfce4/xfce4-terminal-colors-solarized/dark/terminalrc ~/.config/Terminal/terminalrc
+
+cp $DOTFILES_ROOT/mc/ini ~/.config/mc/ini
 
 echo ''
 echo '  All installed!'
