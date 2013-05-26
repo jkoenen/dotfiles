@@ -1,3 +1,6 @@
+" activate Pathogen managed plugins:
+call pathogen#infect()
+
 set softtabstop=4
 set shiftwidth=4
 set tabstop=4
@@ -7,15 +10,16 @@ set smartindent
 set number
 autocmd FileType make setlocal noexpandtab
 syntax on
+set background=dark
+colorscheme solarized
 set hlsearch
 set hidden " Don't ask for saving when switch buffers
 set confirm " But *do* ask when quitting vim
 au BufRead,BufNewFile *.lace setfiletype ruby
 set gfn=Droid\ Sans\ Mono\ 10
 set autowrite
-colorscheme blue
-source $HOME/Dropbox/config/vim/FindFile.vim
-source $HOME/Dropbox/config/vim/fswitch.vim
+"source $HOME/Dropbox/config/vim/FindFile.vim
+"source $HOME/Dropbox/config/vim/fswitch.vim
 nmap <F2> :FindFile<CR>
 nmap <C-PageUp> :bp<CR>
 nmap <C-PageDown> :bn<CR>

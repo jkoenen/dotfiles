@@ -4,3 +4,6 @@
 [submodule "vim/vim.symlink/bundle/fswitch"]
 	path = vim/vim.symlink/bundle/fswitch
 	url = git://github.com/derekwyatt/vim-fswitch.git
+[submodule "vim/vim.symlink/bundle/vim-colors-solarized"]
+	path = vim/vim.symlink/bundle/vim-colors-solarized
+	url = git://github.com/altercation/vim-colors-solarized.git
