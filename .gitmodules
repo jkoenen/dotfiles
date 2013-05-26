@@ -10,3 +10,12 @@
 [submodule "xfce4/xfce4-terminal-colors-solarized"]
 	path = xfce4/xfce4-terminal-colors-solarized
 	url = git://github.com/sgerrand/xfce4-terminal-colors-solarized.git
+[submodule "vim/vim.symlink/bundle/supertab"]
+	path = vim/vim.symlink/bundle/supertab
+	url = git://github.com/ervandew/supertab.git
+[submodule "vim/vim.symlink/bundle/genutils"]
+	path = vim/vim.symlink/bundle/genutils
+	url = git://github.com/vim-scripts/genutils.git
+[submodule "vim/vim.symlink/bundle/ctrlp"]
+	path = vim/vim.symlink/bundle/ctrlp
+	url = git://github.com/kien/ctrlp.vim.git
