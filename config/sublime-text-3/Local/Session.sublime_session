@@ -1,0 +1,872 @@
+{
+	"folder_history":
+	[
+		"/home/julien/projects/motor3d"
+	],
+	"last_version": 3047,
+	"last_window_id": 2,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 1095.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 54.0,
+				"selected_items":
+				[
+					[
+						"install pack",
+						"Package Control: Install Package"
+					],
+					[
+						"install pa",
+						"Package Control: Install Package"
+					],
+					[
+						"package ",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 647.0
+			},
+			"console":
+			{
+				"height": 237.0,
+				"history":
+				[
+					"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/julien/projects/motor3d/documentation/coding_standards.md",
+				"/home/julien/projects/motor3d/applications/tiz/tiz.lace",
+				"/home/julien/projects/motor3d/applications/tiz/source/main.cpp",
+				"/home/julien/projects/motor3d/modules/third_party/libuv/libuv-0.11.13/include/uv.h",
+				"/home/julien/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+				"/home/julien/projects/motor3d/applications/prototypes/bvh_test/main.cpp",
+				"/home/julien/projects/motor3d/configuration/command_line_tool.lace",
+				"/home/julien/projects/motor3d/tools/lace/bin/lace",
+				"/home/julien/projects/motor3d/configuration/default_config.lace",
+				"/home/julien/projects/motor3d/modules/runtime/base/base.lace",
+				"/home/julien/projects/motor3d/modules/runtime/base/include/motor3d/base/win32/win32_pre.hpp",
+				"/home/julien/projects/motor3d/modules/runtime/base/include/motor3d/base/types.hpp",
+				"/home/julien/projects/motor3d/modules/platform/linux/clang/clang.lace",
+				"/home/julien/projects/motor3d/modules/third_party/libuv/libuv.lace",
+				"/home/julien/projects/motor3d/tools/lace/lib/lace/lacemodule.rb",
+				"/home/julien/projects/motor3d/tools/lace/lib/lace/context.rb",
+				"/home/julien/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+				"/home/julien/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+				"/home/julien/projects/keen/svn_source/library_dbs/local/configuration/defbuild_configuration_keen.def",
+				"/home/julien/projects/motor3d/dbs/prototype/test_cpp/main.cpp",
+				"/home/julien/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 93.0,
+				"where_history":
+				[
+					"*.lace"
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": true,
+				"find_history":
+				[
+					"cpp_warning_level",
+					"add_file",
+					"indent",
+					"current_version_dir",
+					"use_crt_memory_management",
+					"keen",
+					"owner",
+					"get_keen_platform",
+					"KEEN_",
+					"doxygen",
+					"keen",
+					"KEEN_",
+					"tab",
+					"reveal",
+					"goto"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"MOTOR3D_"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": false,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 25.0
+			},
+			"input":
+			{
+				"height": 33.0
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 255.0
+			},
+			"output.find_results":
+			{
+				"height": 220.0
+			},
+			"output.markdown":
+			{
+				"height": 112.0
+			},
+			"replace":
+			{
+				"height": 64.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"clang",
+						"modules/platform/linux/clang/clang.lace"
+					],
+					[
+						"libuv",
+						"modules/third_party/libuv/libuv.lace"
+					],
+					[
+						"defaul",
+						"configuration/default_config.lace"
+					],
+					[
+						"",
+						"modules/platform/linux/clang/clang.lace"
+					],
+					[
+						"comman",
+						"configuration/command_line_tool.lace"
+					],
+					[
+						"default",
+						"configuration/default_config.lace"
+					],
+					[
+						"clang.",
+						"modules/platform/linux/clang/clang.lace"
+					],
+					[
+						"libuv.",
+						"modules/third_party/libuv/libuv.lace"
+					],
+					[
+						"tiz.la",
+						"applications/tiz/tiz.lace"
+					],
+					[
+						"context",
+						"tools/lace/lib/lace/context.rb"
+					],
+					[
+						"lacemod",
+						"tools/lace/lib/lace/lacemodule.rb"
+					],
+					[
+						"lacemodule.r",
+						"tools/lace/lib/lace/lacemodule.rb"
+					],
+					[
+						"uv.lace",
+						"modules/third_party/libuv/libuv.lace"
+					],
+					[
+						"tizmain.",
+						"applications/tiz/source/main.cpp"
+					],
+					[
+						"tiz.",
+						"applications/tiz/tiz.lace"
+					],
+					[
+						"base.la",
+						"modules/runtime/base/base.lace"
+					],
+					[
+						"defau",
+						"configuration/default_config.lace"
+					],
+					[
+						"coma",
+						"configuration/command_line_tool.lace"
+					],
+					[
+						"def",
+						"configuration/default_config.lace"
+					],
+					[
+						"base.",
+						"modules/runtime/base/base.lace"
+					],
+					[
+						"lace",
+						"tools/lace/bin/lace"
+					],
+					[
+						"commandline",
+						"configuration/command_line_tool.lace"
+					],
+					[
+						"tiz.lace",
+						"applications/tiz/tiz.lace"
+					],
+					[
+						"main.cpp",
+						"applications/prototypes/bvh_test/main.cpp"
+					],
+					[
+						"defaut_con",
+						"configuration/default_config.lace"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 236.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 1433.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/julien/projects/motor3d/documentation/coding_standards.md",
+					"settings":
+					{
+						"buffer_size": 240,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "main.cpp",
+					"settings":
+					{
+						"buffer_size": 3930,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/julien/projects/motor3d/modules/runtime/base/include/motor3d/base/types.hpp",
+					"settings":
+					{
+						"buffer_size": 2252,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "task_test.sublime-project",
+					"settings":
+					{
+						"buffer_size": 226,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/julien/.config/sublime-text-3/Packages/User/lace.sublime-build",
+					"settings":
+					{
+						"buffer_size": 185,
+						"line_ending": "Unix",
+						"name": "untitled.sublime-build"
+					}
+				},
+				{
+					"file": "project.lace",
+					"settings":
+					{
+						"buffer_size": 153,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/julien/projects/motor3d/modules/platform/linux/linux.lace",
+					"settings":
+					{
+						"buffer_size": 58,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "Packages/User/lace.sublime-build",
+			"command_palette":
+			{
+				"height": 54.0,
+				"selected_items":
+				[
+					[
+						"install pack",
+						"Package Control: Install Package"
+					],
+					[
+						"install pa",
+						"Package Control: Install Package"
+					],
+					[
+						"package ",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 647.0
+			},
+			"console":
+			{
+				"height": 237.0,
+				"history":
+				[
+					"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/julien/projects/motor3d/applications/prototypes/task_test/test_test.sublime-project",
+				"/home/julien/projects/motor3d/documentation/coding_standards.md",
+				"/home/julien/projects/motor3d/applications/tiz/tiz.lace",
+				"/home/julien/projects/motor3d/applications/tiz/source/main.cpp",
+				"/home/julien/projects/motor3d/modules/third_party/libuv/libuv-0.11.13/include/uv.h",
+				"/home/julien/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+				"/home/julien/projects/motor3d/applications/prototypes/bvh_test/main.cpp",
+				"/home/julien/projects/motor3d/configuration/command_line_tool.lace",
+				"/home/julien/projects/motor3d/tools/lace/bin/lace",
+				"/home/julien/projects/motor3d/configuration/default_config.lace",
+				"/home/julien/projects/motor3d/modules/runtime/base/base.lace",
+				"/home/julien/projects/motor3d/modules/runtime/base/include/motor3d/base/win32/win32_pre.hpp",
+				"/home/julien/projects/motor3d/modules/runtime/base/include/motor3d/base/types.hpp",
+				"/home/julien/projects/motor3d/modules/platform/linux/clang/clang.lace",
+				"/home/julien/projects/motor3d/modules/third_party/libuv/libuv.lace",
+				"/home/julien/projects/motor3d/tools/lace/lib/lace/lacemodule.rb",
+				"/home/julien/projects/motor3d/tools/lace/lib/lace/context.rb",
+				"/home/julien/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+				"/home/julien/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+				"/home/julien/projects/keen/svn_source/library_dbs/local/configuration/defbuild_configuration_keen.def",
+				"/home/julien/projects/motor3d/dbs/prototype/test_cpp/main.cpp",
+				"/home/julien/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 93.0,
+				"where_history":
+				[
+					"*.lace"
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": true,
+				"find_history":
+				[
+					"cpp_warning_level",
+					"add_file",
+					"indent",
+					"current_version_dir",
+					"use_crt_memory_management",
+					"keen",
+					"owner",
+					"get_keen_platform",
+					"KEEN_",
+					"doxygen",
+					"keen",
+					"KEEN_",
+					"tab",
+					"reveal",
+					"goto"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"MOTOR3D_"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": false,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 1,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/julien/projects/motor3d/documentation/coding_standards.md",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 240,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										240,
+										240
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Markdown/Markdown.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "main.cpp",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 3930,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										224,
+										224
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/C++/C++.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 102.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/julien/projects/motor3d/modules/runtime/base/include/motor3d/base/types.hpp",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2252,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										135,
+										135
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/C++/C++.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "task_test.sublime-project",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 226,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										2,
+										2
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JSON.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/home/julien/.config/sublime-text-3/Packages/User/lace.sublime-build",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 185,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										118,
+										118
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JSON.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"file": "project.lace",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 153,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										153,
+										153
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 6,
+							"file": "/home/julien/projects/motor3d/modules/platform/linux/linux.lace",
+							"semi_transient": true,
+							"settings":
+							{
+								"buffer_size": 58,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										58,
+										58
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 25.0
+			},
+			"input":
+			{
+				"height": 33.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 255.0
+			},
+			"output.find_results":
+			{
+				"height": 220.0
+			},
+			"output.markdown":
+			{
+				"height": 112.0
+			},
+			"position": "0,0,0,0,0,349,25,1782,1120,3200,1200",
+			"project": "task_test.sublime-project",
+			"replace":
+			{
+				"height": 64.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"clang",
+						"modules/platform/linux/clang/clang.lace"
+					],
+					[
+						"libuv",
+						"modules/third_party/libuv/libuv.lace"
+					],
+					[
+						"defaul",
+						"configuration/default_config.lace"
+					],
+					[
+						"",
+						"modules/platform/linux/clang/clang.lace"
+					],
+					[
+						"comman",
+						"configuration/command_line_tool.lace"
+					],
+					[
+						"default",
+						"configuration/default_config.lace"
+					],
+					[
+						"clang.",
+						"modules/platform/linux/clang/clang.lace"
+					],
+					[
+						"libuv.",
+						"modules/third_party/libuv/libuv.lace"
+					],
+					[
+						"tiz.la",
+						"applications/tiz/tiz.lace"
+					],
+					[
+						"context",
+						"tools/lace/lib/lace/context.rb"
+					],
+					[
+						"lacemod",
+						"tools/lace/lib/lace/lacemodule.rb"
+					],
+					[
+						"lacemodule.r",
+						"tools/lace/lib/lace/lacemodule.rb"
+					],
+					[
+						"uv.lace",
+						"modules/third_party/libuv/libuv.lace"
+					],
+					[
+						"tizmain.",
+						"applications/tiz/source/main.cpp"
+					],
+					[
+						"tiz.",
+						"applications/tiz/tiz.lace"
+					],
+					[
+						"base.la",
+						"modules/runtime/base/base.lace"
+					],
+					[
+						"defau",
+						"configuration/default_config.lace"
+					],
+					[
+						"coma",
+						"configuration/command_line_tool.lace"
+					],
+					[
+						"def",
+						"configuration/default_config.lace"
+					],
+					[
+						"base.",
+						"modules/runtime/base/base.lace"
+					],
+					[
+						"lace",
+						"tools/lace/bin/lace"
+					],
+					[
+						"commandline",
+						"configuration/command_line_tool.lace"
+					],
+					[
+						"tiz.lace",
+						"applications/tiz/tiz.lace"
+					],
+					[
+						"main.cpp",
+						"applications/prototypes/bvh_test/main.cpp"
+					],
+					[
+						"defaut_con",
+						"configuration/default_config.lace"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 236.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 1,
+			"workspace_name": "/home/julien/projects/motor3d/applications/prototypes/task_test/task_test.sublime-workspace"
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+			"/home/julien/projects/motor3d/applications/prototypes/task_test/task_test.sublime-workspace",
+			"/home/julien/projects/motor3d/applications/prototypes/task_test/test_test.sublime-workspace",
+			"/home/julien/projects/motor3d/config/common.sublime-workspace"
+		]
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"auto_complete_commit_on_tab": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"shift_tab_unindent": true,
+	"tab_completion": true,
+	"translate_tabs_to_spaces": true,
+    "auto_match_enabled" : false
+}

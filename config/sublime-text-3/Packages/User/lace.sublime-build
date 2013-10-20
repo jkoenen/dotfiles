@@ -1,0 +1,4 @@
+{
+    "cmd": [ "ruby", "$project_path/../../../tools/lace/bin/lace", "-b", "linux/debug", "$project_path/project.lace" ],
+    "file_regex": "^(..[^:\n]*):([0-9]+):?([0-9]+)?:? (.*)$"
+}

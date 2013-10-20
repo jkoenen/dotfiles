@@ -1,0 +1,3 @@
+[
+	{ "keys": ["alt+shift+o"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+]
